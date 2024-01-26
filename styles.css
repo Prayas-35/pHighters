@@ -2,9 +2,6 @@ body {
     display: flex;
     margin: 0;
     padding: 0%;
-    background-image: url(water.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 img {
@@ -60,6 +57,9 @@ nav {
     justify-content: center;
     height: 100vh;
     width: 100vw;
+    background-image: url(water.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .mission {
