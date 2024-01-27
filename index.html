@@ -11,28 +11,59 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="/" class="name"> <img src="pHighters.png"></a>
-        <nav>
-            <a href="#" class="nav">Home</a>
-            <a href="#" class="nav">Our Products</a>
-            <a href="#" class="nav">Our Story</a>
-            <a href="#" class="nav">Why pHighters?</a>
-            <a href="#" class="nav">Contact Us</a>
-        </nav>
-    </div>
+    <div>
+        <div class="navbar">
+            <a href="/" class="name"> <img src="pHighters.png"></a>
+            <nav>
+                <a href="#home" class="nav">Home</a>
+                <a href="#story" class="nav">Our Story</a>
+                <a href="#" class="nav">Our Products</a>
+                <!-- <a href="#" class="nav">Why pHighters?</a> -->
+                <a href="#" class="nav">Contact Us</a>
+            </nav>
+        </div>
 
-    <div class="home">
-        <div class="mission">
-            <p>Our project is committed to leveraging sustainable technologies to mitigate ocean acidification and
-                create
-                valuable products from extracted carbonic acid, fostering a harmonious relationship between
-                environmental
-                conservation and collaborative innovation for the betterment of both businesses and charitable causes.
-            </p>
+        <div class="home" id="home">
+            <div class="mission">
+                <p>Our project is committed to leveraging sustainable technologies to mitigate ocean acidification and
+                    create
+                    valuable products from extracted carbonic acid, fostering a harmonious relationship between
+                    environmental
+                    conservation and collaborative innovation for the betterment of both businesses and charitable
+                    causes.
+                </p>
+                <form action="#story">
+                    <button type="submit" id="btnsto">Our Story</button>
+                </form>
+
+                <form action="#prod">
+                    <button type="submit" id="btnprod">Our Products</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="story" id="story">
+            <div class="oursto" id="oursto">
+                <p> In the heart of a bustling city, a group of friends, united by their shared concern for the
+                    environment, found themselves grappling with a unique challenge - how to raise awareness about the
+                    silent threat of ocean acidification. Determined to make a difference, they decided to channel their
+                    passion into action.<br>
+
+                    Late one night, during an animated brainstorming session, someone proposed the name "pHighters." The
+                    wordplay on "pH," which represents the acidity level, and the phonetic similarity to "fighters"
+                    struck a chord. It perfectly encapsulated our mission to combat ocean acidification. The name
+                    "pHighters" became more than just a clever play on words; it embodied the spirit of the team's fight
+                    against an invisible enemy threatening the oceans.<br>
+
+                    As we delved into our work, the name became a rallying cry for the group, resonating with the
+                    broader community. "pHighters" became synonymous with a collective effort to raise awareness,
+                    innovate solutions, and fight for the health of the oceans - a name that not only reflected our
+                    mission but also inspired others to join the cause.</p>
+            </div>
         </div>
     </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>

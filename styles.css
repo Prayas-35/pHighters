@@ -2,12 +2,13 @@ body {
     display: flex;
     margin: 0;
     padding: 0%;
+    overflow-x: hidden;
 }
 
 img {
     margin-top: 15px;
     margin-left: 20px;
-    filter: drop-shadow(5px 5px 10px grey);
+    /* filter: drop-shadow(5px 5px 10px grey); */
 }
 
 .navbar {
@@ -15,13 +16,16 @@ img {
     z-index: 1000;
     width: 100%;
     height: 160px;
+    background-color: transparent;
+    /* backdrop-filter: blur(10px);
+    border-bottom: 2px solid white; */
     background-color: rgb(255, 255, 255);
 }
 
 nav {
     font-family: Arial, Helvetica, sans-serif;
     transform: scale(1.2);
-    margin-left: 850px;
+    margin-left: 1000px;
     margin-top: -80px;
 
     a {
@@ -72,4 +76,70 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     color: #177bb6;
+}
+
+.story {
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+    width: 100vw;
+    /* background-image: url(water.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.oursto {
+    /* display: flex;
+    margin-right: 100px;
+    justify-content: center; */
+    width: 1200px;
+    text-align: justify;
+    --min-height: 225px;
+    margin-top: 200px;
+    --overflow-wrap: break-word;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnsto {
+    margin-top: 50px;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    color: whitesmoke;
+    background-image: linear-gradient(50deg, purple 30%, #0c6eaf);
+    transition: background-image 0.5s ease;
+    background-size: 180%;
+    background-position: right;
+    transition: background-position 0.5s ease;
+
+    &:hover {
+        background-position: left;
+    }
+}
+
+#btnprod {
+    transform: translateX(150px) translateY(-59.9px);
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: whitesmoke;
+    background-image: linear-gradient(50deg, purple 30%, #0c6eaf);
+    transition: background-image 0.5s ease;
+    background-size: 180%;
+    background-position: right;
+    transition: background-position 0.5s ease;
+
+    &:hover {
+        background-position: left;
+    }
 }
