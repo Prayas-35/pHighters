@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function scrollToDiv(divId) {
     const div = document.getElementById(divId);
-    const navBarht = document.getElementById('navbar').offsetHeight
 
     if (div) {
         div.scrollIntoView({ behavior: 'smooth' });
