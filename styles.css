@@ -21,14 +21,17 @@ img {
 
 nav {
     font-family: Arial, Helvetica, sans-serif;
-    transform: scale(1.2);
-    margin-left: 1000px;
-    margin-top: -80px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: right;
+    margin-right: 114px;
+    /* margin-left: 1000px; */
+    margin-top: -82px;
 
     a {
         position: relative;
         text-decoration: none;
-        margin-left: 20px;
+        margin-left: 30px;
         color: #177bb6;
     }
 
