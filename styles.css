@@ -152,7 +152,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-color: #f0f8ff;
     background-repeat: no-repeat;
@@ -161,7 +161,7 @@ nav {
 
 .ourpro {
     width: 1200px;
-    text-align: justify;
+    /* text-align: justify; */
     --min-height: 225px;
     margin-top: 200px;
     --overflow-wrap: break-word;
@@ -170,8 +170,22 @@ nav {
     transform: translateY(-88px);
     color: #177bb6;
 
+    #para {
+        display:flex;
+        justify-content: right;
+    }
+
+    p {
+        width: 50%;
+        /* text-align: right; */
+    }
+
     h1 {
         margin-left: 425px;
+    }
+
+    span {
+        font-weight: bold;
     }
 }
 
@@ -227,10 +241,9 @@ div.img {
         margin-left: 180px;
         border: 2px solid white;
         background-color: transparent;
-        
+
         i {
             margin-left: 5px;
         }
     }
 }
-
