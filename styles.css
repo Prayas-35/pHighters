@@ -148,7 +148,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110vh;
+    height: 120vh;
     width: 100vw;
     background-color: #f0f8ff;
     background-repeat: no-repeat;
@@ -165,6 +165,18 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     transform: translateY(-88px);
     color: #177bb6;
+
+    img {
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        justify-content: left;
+        height: 70%;
+        width: 60%;
+        transform: translateX(-50px) translateY(90px);
+    }
 
     #para {
         display: flex;
@@ -209,7 +221,7 @@ div.img {
 }
 
 #box {
-    margin-top: 85px;
+    margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
 
